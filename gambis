@@ -1,0 +1,12 @@
+#logo-dindin {
+    
+    position: absolute;
+    width: 69px;
+    height: 71px;
+    left: 82px;
+    top: 20px;
+    
+    background: url();
+    }
+
+    

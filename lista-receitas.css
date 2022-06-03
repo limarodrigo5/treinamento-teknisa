@@ -1,0 +1,403 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #fffdfd;
+}
+
+
+header {
+
+    position: absolute;
+    width: 1440px;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img#logo-omma {
+    position: absolute;
+    width: 324px;
+    height: 84px;
+    left: 537px;
+    top: 16px;
+
+    background: url(./img-omma/img-omma/logo.png);
+}
+
+nav {
+
+    position: absolute;
+    width: 1440px;
+    height: 48px;
+    left: 0px;
+    top: 117px;
+
+    background: #FFA000;
+
+
+}
+
+nav ul li#l1 {
+    /* início */
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 550px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+
+    color: #FDFDFD;
+
+}
+
+nav ul li#l2 {
+    position: absolute;
+    width: 84px;
+    height: 24px;
+    left: 665px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+
+    color: #FDFDFD;
+}
+
+nav ul li#l3 {
+    position: absolute;
+    width: 82px;
+    height: 24px;
+    left: 807px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+
+    color: #FDFDFD;
+}
+
+.titulo {
+    /* todas as receitas */
+
+    position: absolute;
+    width: 466px;
+    height: 61px;
+    left: 122px;
+    top: 269px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 61px;
+    /* identical to box height */
+
+    text-transform: lowercase;
+    ;
+
+    color: #FFA000;
+}
+
+#primeira-linha {
+    display: flex;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    width: 1300px;
+    top: 753px;
+    height: 71px;
+    left: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+li#p1 {
+    width: 466px;
+    text-align: center;
+
+}
+
+li#p2 {
+    width: 466px;
+    text-align: center;
+
+}
+
+li#p3 {
+    width: 466px;
+    text-align: center;
+
+}
+
+#segunda-linha {
+
+
+    display: flex;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    width: 1300px;
+    top: 1318px;
+    height: 71px;
+    left: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+li#s1 {
+    width: 466px;
+    text-align: center;
+}
+
+li#s2 {
+    width: 466px;
+    text-align: center;
+}
+
+li#s3 {
+    width: 466px;
+    text-align: center;
+}
+
+
+#terceira-linha {
+
+    display: flex;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    width: 1300px;
+    top: 1883px;
+    height: 71px;
+    left: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+li#t1 {
+    width: 466px;
+    text-align: center;
+
+}
+
+li#t2 {
+    width: 466px;
+    text-align: center;
+
+}
+
+li#t3 {
+    width: 466px;
+    text-align: center;
+}
+
+#img-risoto1 {
+
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 119px;
+    top: 399px;
+
+    background: url(./img-omma/img-omma/risoto.png)
+}
+
+#img-risoto2 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 125px;
+    top: 1529px;
+
+    background: url(./img-omma/img-omma/risoto.png)
+}
+
+#img-moqueca {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 119px;
+    top: 964px;
+
+    background: url(./img-omma/img-omma/moqueca.png)
+}
+
+#img-bolo-banana1 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 547px;
+    top: 399px;
+
+    background: url(./img-omma/img-omma/bolo-banana.png)
+}
+
+#img-bolo-banana2 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 553px;
+    top: 1529px;
+
+
+    background: url(./img-omma/img-omma/bolo-banana.png)
+}
+
+#img-ratatouille {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 547px;
+    top: 964px;
+
+    background: url(./ratatouile.jfif)
+}
+
+#img-tabule1 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 972px;
+    top: 399px;
+
+    background: url(./img-omma/img-omma/tabule.png)
+}
+
+#img-tabule2 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 972px;
+    top: 964px;
+
+    background: url(./img-omma/img-omma/tabule.png)
+}
+
+#img-tabule3 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 978px;
+    top: 1529px;
+
+    background: url(./img-omma/img-omma/tabule.png)
+}
+
+
+button {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 185px;
+    top: 830px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    background: #176902;
+    border-color: #176902;
+    border-right: #176902;
+    border-bottom: #176902
+}
+
+#b2 {
+    left: 615px;
+}
+
+#b3 {
+    left: 1050px;
+}
+
+#b4 {
+
+    top: 1395px;
+}
+
+#b5 {
+    top: 1395px;
+    left: 615px;
+}
+
+#b6 {
+    top: 1395px;
+    left: 1050px;
+}
+
+#b7 {
+
+    top: 1960px;
+}
+
+#b8 {
+    top: 1960px;
+    left: 615px;
+}
+
+#b9 {
+    top: 1960px;
+    left: 1050px;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 2397px;
+
+    background: #FFC107;
+}
+
+img#logo-omma2 {
+    position: absolute;
+    width: 324px;
+    height: 84px;
+    left: 6px;
+    top: 16px;
+
+    background: url(./img-omma/img-omma/logo.png);
+}
+
+
+p#slogan {
+    position: absolute;
+    width: 464px;
+    height: 22px;
+    left: 368px;
+    top: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}

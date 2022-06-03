@@ -1,0 +1,408 @@
+@font-face {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url('Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logo-dindin {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 82px;
+    top: 20px;
+}
+
+
+#lista-header {
+    display: flex;
+
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 1028px;
+    top: 32px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FDFDFD;
+}
+
+#lista-header>li {
+    padding: 0px 20px;
+}
+
+
+main {
+    background-color: #FFFFFF;
+}
+
+main h1 {
+    position: absolute;
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FF4081;
+
+}
+
+main h2 {
+    position: absolute;
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 285px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #555555;
+}
+
+#ilustra-invest-iniciantes {
+    position: absolute;
+    width: 380px;
+    height: 381px;
+    left: 112px;
+    right: 948px;
+    top: 385px;
+    bottom: 1665px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+#invest-ini {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+#lorem1 {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+#b1 {
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 652px;
+
+
+    border: #419488;
+    background: #419488;
+    border-radius: 62px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#l1 {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 82px;
+    top: 834px;
+
+    background: #C4C4C4;
+}
+
+#ilustra-poup-rend {
+    position: absolute;
+    width: 380px;
+    height: 385px;
+    left: 112px;
+    right: 948px;
+    top: 946px;
+    bottom: 1100px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF
+}
+
+#poup-rend {
+    position: absolute;
+    width: 373px;
+    height: 40px;
+    left: 545px;
+    top: 947px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FF4081;
+}
+
+#lorem2 {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 1024px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+#b2 {
+
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 1210px;
+
+    border: #2E948A;
+    background: #2E948A;
+    border-radius: 62px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#l2 {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 98px;
+    top: 1424px;
+
+    background: #C4C4C4;
+}
+
+#ilustra-indep-finan {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 380px;
+    height: 498px;
+    left: 128px;
+    right: 932px;
+    top: 1522px;
+    bottom: 411px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF
+}
+
+#indep-finan {
+    position: absolute;
+    width: 425px;
+    height: 40px;
+    left: 534px;
+    top: 1581px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FF4081;
+}
+
+#lorem3 {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 560px;
+    top: 1658px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+#b3 {
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 561px;
+    top: 1800px;
+
+    border: #2E948A;
+    background: #2E948A;
+    border-radius: 62px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 207px;
+    left: 0%;
+    right: 0%;
+    top: 2217px;
+    bottom: 0%;
+
+    background: #419488;
+}
+
+footer img {
+    position: absolute;
+    left: 8.89%;
+    right: 84.27%;
+    top: 25.6%;
+    bottom: 25.4%;
+}
+
+footer ul {
+    position: absolute;
+
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+footer li {
+    padding: 2px 0px;
+}
+
+.bt-footer #bt1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #419488
+}
+
+.bt-footer #bt2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #419488;
+}
+
