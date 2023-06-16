@@ -31,6 +31,11 @@ h3 {
     border-radius: 8px;
 }
 
+.body button:hover {
+    background: black;
+    color: white;
+}
+
 .footer {
     margin-top: 2.5rem;
     font-size: 2rem;
