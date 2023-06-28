@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #e5e5e5;
+  }
+
+  body::before {
+    content: "";
+    width: 100%;
+    height: 436px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  
+    background: #535971;
+    mix-blend-mode: normal;
+  }
+
+  .page {
+    position: relative;
+  width: 1440px;
+  height: auto;
+  }
+
+
+  header h1 {
+    
+    font-family: 'Staatliches', sans-serif;
+    
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+
+width: 163px;
+    height: 60px;
+
+    margin: 138px 0 0 345px;
+
+color: #FFFFFF;
+  }
+
+  header p {
+    font-family: 'Poppins',sans-serif;
+
+font-size: 20px;
+line-height: 30px;
+
+width: 417px;
+height: 46px;
+
+
+margin: 18px 0 0 345px;
+
+color: #FFFFFF;
+  }
+
+
+
+  form {
+    width: 750px;
+    height: 1196px;
+    
+    background: #FFFFFF;
+    display: flex;
+    
+  flex-direction: column;
+  
+    margin: 58px auto;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+
+    
+  }
+
+  fieldset {
+    border: none;
+    
+  }
+
+
+  
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+  fieldset legend {
+    font-family: 'Staatliches', sans-serif;
+font-size: 24px;
+line-height: 34px;
+margin: 64px 0 0 64px;
+
+width: 622px;
+padding-bottom: 16px;
+border-bottom: 1px solid #E6E6F0;
+
+color: #535971;
+  }
+
+  .input-wrapper {
+    
+    font-family: 'Poppins',sans-serif;
+    
+        display: flex;
+        flex-direction: column;  
+
+  }
+
+  .input-wrapper label {
+    font-size: 14px;
+line-height: 24px;
+margin-bottom: 8px;
+  }
+
+
+  .name-lastname {
+    display: flex;
+    
+    gap: 22px;
+    margin-left: 64px;
+
+    margin-top: 36px;
+   
+  }
+.name-lastname input {
+    background: #FAFAFC;
+    
+    width: 300px;
+    height: 56px;
+    
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.email-password {
+  display:flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 16px;
+  margin-left: 64px;
+
+}
+
+.email-password input, .input-wrapper #info-mentor {
+  background: #FAFAFC;
+
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+
+width: 622px;
+height: 56px;
+padding-left: 10px;
+
+}
+
+span {
+  font-size: 12px;
+line-height: 20px;
+
+
+color: #C1BCCC;
+}
+
+.email-password #email-span {
+  margin-left: 9.12px;
+}
+
+.email-password #password-span {
+  margin-left: 4.69px;
+}
+
+.info-mentor-wrapper {
+  margin-top: 32px;
+  margin-left: 64px;
+}
+
+#info-mentor-span {
+  margin-left: 6.73px;
+}
+
+h2 {
+  font-family: 'Staatliches',sans-serif;
+  font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+margin: 32px 0 0 64px;
+
+
+
+color: #535971;
+}
+
+.first-mentorship, .second-mentorship {
+  display: flex;
+  
+  margin: 8px 0 0 64px;
+  
+}
+
+.first-mentorship span, .second-mentorship span {
+  margin-left: 7.21px;
+}
+
+.first-mentorship #mentorship-date, .second-mentorship #mentorship-date {
+  display:flex;
+  
+  background: #FAFAFC;
+
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+margin: 9px 32px 0 0;
+
+
+width: 300px;
+height: 56px;
+
+
+}
+
+
+.begin-end, .second-mentorship .begin-end {
+  display: flex; 
+  gap:10px
+
+
+}
+
+.begin-end input, .second-mentorship .begin-end input {
+  
+
+  width: 140px;
+  height: 56px;
+  margin-top: 8px;
+
+  background: #FAFAFC;
+
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+
+}
+
+
+footer {
+  position: absolute;
+  background: #535971;
+border-radius: 0px 0px 20px 20px;
+width: 750px;
+height: 160px;
+
+bottom: -160px;
+left:345px;
+
+}
+
+footer input {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+
+  width: 608px;
+height: 55.65px;
+
+
+  background: #FF5374;
+border-radius: 20px;
+
+border: none;
+  font-family: 'Staatliches';
+
+font-size: 20px;
+line-height: 26px;
+
+  color: #FFFFFF;
+
+margin: 52.67px auto;
+
+}
+
+footer input:hover {
+  background: #d34661;
+}
+
+
+
