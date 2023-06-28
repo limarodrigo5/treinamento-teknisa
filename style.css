@@ -1,0 +1,42 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+h3 {
+    
+    font-size: 3rem;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.body input {
+    padding: 0.8rem;
+    margin-right: 0.8rem;
+    border-radius: 8px
+    
+}
+
+.body button {
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+}
+
+.body button:hover {
+    background: black;
+    color: white;
+}
+
+.footer {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+}
