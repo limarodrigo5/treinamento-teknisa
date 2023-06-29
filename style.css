@@ -9,6 +9,7 @@
 
 .container {
     text-align: center;
+    animation: topdown 900ms;
 }
 
 h3 {
@@ -40,3 +41,15 @@ h3 {
     margin-top: 2.5rem;
     font-size: 2rem;
 }
+
+@keyframes topdown {
+    0% {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
